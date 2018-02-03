@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Users/David Trost/Documents/GitHub/Carrier-Board_Space-master/Carrier-Board.sch")
-    (date "2/3/2018 3:00:04 PM")
+    (source C:/Users/Prabodh/Documents/GitHub/Carrier-Board_Space/Carrier-Board.sch)
+    (date "2/3/2018 3:18:01 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -447,12 +447,12 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical Carrier-Board)
-      (uri "C:\\Users\\David Trost\\Documents\\GitHub\\Carrier-Board_Space-master\\Carrier-Board.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+      (uri D:\Kicad\share\kicad\library\conn.lib))
+    (library (logical device)
+      (uri D:\Kicad\share\kicad\library\device.lib))
+    (library (logical Carrier-Board)
+      (uri C:\Users\Prabodh\Documents\GitHub\Carrier-Board_Space\Carrier-Board.lib)))
   (nets
     (net (code 1) (name SATA_ACTn)
       (node (ref U9) (pin 49))
