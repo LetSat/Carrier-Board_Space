@@ -1,4 +1,4 @@
-update=Sat 27 Jan 2018 03:04:10 AM EST
+update=3/27/2018 12:52:37 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,7 @@ LibName34=Carrier-Board
 LibName35=SI-51009-F
 LibName36=/home/chandler/Homeschool/Semester8/CubeSat/BusSimulator/MCP6H04-E
 LibName37=/home/chandler/Homeschool/Semester8/CubeSat/BusSimulator/BusSimulator
+LibName38=0532610271
+LibName39=0532610371
+LibName40=0532610471
+LibName41=0532610671
