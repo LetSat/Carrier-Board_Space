@@ -38,6 +38,8 @@ LIBS:0532610271
 LIBS:0532610371
 LIBS:0532610471
 LIBS:0532610671
+LIBS:53261-0771
+LIBS:53261-1071
 LIBS:Carrier-Board-cache
 EELAYER 25 0
 EELAYER END
@@ -80,7 +82,7 @@ L CONN_3-6318491-6 J1
 U 3 1 5A03F60D
 P 12450 4850
 F 0 "J1" H 12800 5100 60  0000 C CNN
-F 1 "s" H 13050 6300 60  0001 C CNN
+F 1 "CONN_3-6318491-6" H 13050 6300 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 12850 2590 60  0001 C CNN
 F 3 "" H 12450 4850 60  0000 C CNN
 	3    12450 4850
@@ -275,10 +277,10 @@ Text GLabel 1000 8650 0    60   Input ~ 0
 Text GLabel 1000 8750 0    60   Input ~ 0
 +3.3V
 $Comp
-L GNDREF #PWR8
+L GNDREF #PWR01
 U 1 1 5A0C1B77
 P 3700 8250
-F 0 "#PWR8" H 3700 8000 50  0001 C CNN
+F 0 "#PWR01" H 3700 8000 50  0001 C CNN
 F 1 "GNDREF" H 3700 8100 50  0000 C CNN
 F 2 "" H 3700 8250 50  0001 C CNN
 F 3 "" H 3700 8250 50  0001 C CNN
@@ -286,10 +288,10 @@ F 3 "" H 3700 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR9
+L GNDREF #PWR02
 U 1 1 5A0C1C29
 P 3900 10650
-F 0 "#PWR9" H 3900 10400 50  0001 C CNN
+F 0 "#PWR02" H 3900 10400 50  0001 C CNN
 F 1 "GNDREF" H 3900 10500 50  0000 C CNN
 F 2 "" H 3900 10650 50  0001 C CNN
 F 3 "" H 3900 10650 50  0001 C CNN
@@ -297,10 +299,10 @@ F 3 "" H 3900 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR12
+L GNDREF #PWR03
 U 1 1 5A0C1CDB
 P 4000 9450
-F 0 "#PWR12" H 4000 9200 50  0001 C CNN
+F 0 "#PWR03" H 4000 9200 50  0001 C CNN
 F 1 "GNDREF" H 4000 9300 50  0000 C CNN
 F 2 "" H 4000 9450 50  0001 C CNN
 F 3 "" H 4000 9450 50  0001 C CNN
@@ -308,10 +310,10 @@ F 3 "" H 4000 9450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR11
+L GNDREF #PWR04
 U 1 1 5A0C1D8D
 P 4000 9050
-F 0 "#PWR11" H 4000 8800 50  0001 C CNN
+F 0 "#PWR04" H 4000 8800 50  0001 C CNN
 F 1 "GNDREF" H 4000 8900 50  0000 C CNN
 F 2 "" H 4000 9050 50  0001 C CNN
 F 3 "" H 4000 9050 50  0001 C CNN
@@ -319,10 +321,10 @@ F 3 "" H 4000 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR10
+L GNDREF #PWR05
 U 1 1 5A0C1E3F
 P 4000 8750
-F 0 "#PWR10" H 4000 8500 50  0001 C CNN
+F 0 "#PWR05" H 4000 8500 50  0001 C CNN
 F 1 "GNDREF" H 4000 8600 50  0000 C CNN
 F 2 "" H 4000 8750 50  0001 C CNN
 F 3 "" H 4000 8750 50  0001 C CNN
@@ -330,10 +332,10 @@ F 3 "" H 4000 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR13
+L GNDREF #PWR06
 U 1 1 5A0C1EF1
 P 4000 9850
-F 0 "#PWR13" H 4000 9600 50  0001 C CNN
+F 0 "#PWR06" H 4000 9600 50  0001 C CNN
 F 1 "GNDREF" H 4000 9700 50  0000 C CNN
 F 2 "" H 4000 9850 50  0001 C CNN
 F 3 "" H 4000 9850 50  0001 C CNN
@@ -351,10 +353,10 @@ SATA0_RX+
 Text GLabel 2150 9450 0    51   Input ~ 0
 SATA0_RX-
 $Comp
-L GNDREF #PWR6
+L GNDREF #PWR07
 U 1 1 5A0C49FB
 P 1800 10400
-F 0 "#PWR6" H 1800 10150 50  0001 C CNN
+F 0 "#PWR07" H 1800 10150 50  0001 C CNN
 F 1 "GNDREF" H 1800 10250 50  0000 C CNN
 F 2 "" H 1800 10400 50  0001 C CNN
 F 3 "" H 1800 10400 50  0001 C CNN
@@ -362,10 +364,10 @@ F 3 "" H 1800 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR7
+L GNDREF #PWR08
 U 1 1 5A0C4BAB
 P 1900 10050
-F 0 "#PWR7" H 1900 9800 50  0001 C CNN
+F 0 "#PWR08" H 1900 9800 50  0001 C CNN
 F 1 "GNDREF" H 1900 9900 50  0000 C CNN
 F 2 "" H 1900 10050 50  0001 C CNN
 F 3 "" H 1900 10050 50  0001 C CNN
@@ -375,10 +377,10 @@ $EndComp
 Text Notes 850  7750 0    60   ~ 0
 Sata Connector\n
 $Comp
-L GNDREF #PWR3
+L GNDREF #PWR09
 U 1 1 5A0C6A3D
 P 1450 8950
-F 0 "#PWR3" H 1450 8700 50  0001 C CNN
+F 0 "#PWR09" H 1450 8700 50  0001 C CNN
 F 1 "GNDREF" H 1450 8800 50  0000 C CNN
 F 2 "" H 1450 8950 50  0001 C CNN
 F 3 "" H 1450 8950 50  0001 C CNN
@@ -386,10 +388,10 @@ F 3 "" H 1450 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR4
+L GNDREF #PWR010
 U 1 1 5A0C6D48
 P 1500 9350
-F 0 "#PWR4" H 1500 9100 50  0001 C CNN
+F 0 "#PWR010" H 1500 9100 50  0001 C CNN
 F 1 "GNDREF" H 1500 9200 50  0000 C CNN
 F 2 "" H 1500 9350 50  0001 C CNN
 F 3 "" H 1500 9350 50  0001 C CNN
@@ -408,10 +410,10 @@ F 3 "" H 1600 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR5
+L GNDREF #PWR011
 U 1 1 5A0C77C7
 P 1600 8450
-F 0 "#PWR5" H 1600 8200 50  0001 C CNN
+F 0 "#PWR011" H 1600 8200 50  0001 C CNN
 F 1 "GNDREF" H 1600 8300 50  0000 C CNN
 F 2 "" H 1600 8450 50  0001 C CNN
 F 3 "" H 1600 8450 50  0001 C CNN
@@ -441,10 +443,10 @@ F 3 "" H 1100 8900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR1
+L GNDREF #PWR012
 U 1 1 5A0DCFAA
 P 750 8350
-F 0 "#PWR1" H 750 8100 50  0001 C CNN
+F 0 "#PWR012" H 750 8100 50  0001 C CNN
 F 1 "GNDREF" H 750 8200 50  0000 C CNN
 F 2 "" H 750 8350 50  0001 C CNN
 F 3 "" H 750 8350 50  0001 C CNN
@@ -452,10 +454,10 @@ F 3 "" H 750 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR2
+L GNDREF #PWR013
 U 1 1 5A0DD07C
 P 1100 9050
-F 0 "#PWR2" H 1100 8800 50  0001 C CNN
+F 0 "#PWR013" H 1100 8800 50  0001 C CNN
 F 1 "GNDREF" H 1100 8900 50  0000 C CNN
 F 2 "" H 1100 9050 50  0001 C CNN
 F 3 "" H 1100 9050 50  0001 C CNN
@@ -474,10 +476,10 @@ F 3 "" H 4500 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDREF #PWR14
+L GNDREF #PWR014
 U 1 1 5A0DDC34
 P 4500 8450
-F 0 "#PWR14" H 4500 8200 50  0001 C CNN
+F 0 "#PWR014" H 4500 8200 50  0001 C CNN
 F 1 "GNDREF" H 4500 8300 50  0000 C CNN
 F 2 "" H 4500 8450 50  0001 C CNN
 F 3 "" H 4500 8450 50  0001 C CNN
@@ -605,17 +607,17 @@ Wire Bus Line
 $Comp
 L 0532610671 J2
 U 1 1 5AB9DE55
-P 2450 1900
-F 0 "J2" H 2250 2331 50  0000 L BNN
-F 1 "0532610671" H 2249 1298 50  0000 L BNN
-F 2 "MOLEX_0532610671" H 2450 1900 50  0001 L BNN
-F 3 "None" H 2450 1900 50  0001 L BNN
-F 4 "Good" H 2450 1900 50  0001 L BNN "Field4"
-F 5 "0532610671" H 2450 1900 50  0001 L BNN "Field5"
-F 6 "1.25mm (.049) Pitch PicoBlade Header, Surface Mount, Right Angle, Lead-free, 6 Circuits" H 2450 1900 50  0001 L BNN "Field6"
-F 7 "0.82 USD" H 2450 1900 50  0001 L BNN "Field7"
-F 8 "Molex" H 2450 1900 50  0001 L BNN "Field8"
-	1    2450 1900
+P 1100 2150
+F 0 "J2" H 900 2581 50  0000 L BNN
+F 1 "0532610671" H 899 1548 50  0000 L BNN
+F 2 "MOLEX_0532610671" H 1100 2150 50  0001 L BNN
+F 3 "None" H 1100 2150 50  0001 L BNN
+F 4 "Good" H 1100 2150 50  0001 L BNN "Field4"
+F 5 "0532610671" H 1100 2150 50  0001 L BNN "Field5"
+F 6 "1.25mm (.049) Pitch PicoBlade Header, Surface Mount, Right Angle, Lead-free, 6 Circuits" H 1100 2150 50  0001 L BNN "Field6"
+F 7 "0.82 USD" H 1100 2150 50  0001 L BNN "Field7"
+F 8 "Molex" H 1100 2150 50  0001 L BNN "Field8"
+	1    1100 2150
 	1    0    0    -1  
 $EndComp
 Text GLabel 13200 800  0    60   Input ~ 0
@@ -752,4 +754,262 @@ Text GLabel 9000 2850 2    60   Input ~ 0
 BatV
 Text Notes 8300 250  0    60   ~ 0
 Notes:\n\nSW1>PDM1\nSW2>PDM2...\n\nPDM1,PDM2 12V\nPDM3,PDM4 BatV\nPDM5,PDM6,PDM7 5V\nPDM8,PDM9,PDM10 3V3\n
+$Comp
+L 53261-0771 J3
+U 1 1 5ABB42A4
+P 700 3100
+F 0 "J3" H 1350 3400 50  0000 L CNN
+F 1 "53261-0771" H 1350 3300 50  0000 L CNN
+F 2 "53261-0771" H 1350 3200 50  0001 L CNN
+F 3 "http://www.mouser.com/ds/2/276/0532610771_PCB_HEADERS-170969.pdf" H 1350 3100 50  0001 L CNN
+F 4 "7 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 7 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 1350 3000 50  0001 L CNN "Description"
+F 5 "" H 1350 2900 50  0001 L CNN "Height"
+F 6 "Molex" H 1350 2800 50  0001 L CNN "Manufacturer_Name"
+F 7 "53261-0771" H 1350 2700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "5427141" H 1350 2600 50  0001 L CNN "RS Part Number"
+F 9 "http://uk.rs-online.com/web/p/products/5427141" H 1350 2500 50  0001 L CNN "RS Price/Stock"
+	1    700  3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P3
+U 1 1 5ABB42E8
+P 1700 4800
+F 0 "P3" H 1600 5121 50  0000 L BNN
+F 1 "0532610471" H 1600 4499 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 1700 4800 50  0001 L BNN
+F 3 "None" H 1700 4800 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 1700 4800 50  0001 L BNN "Field4"
+F 5 "0532610471" H 1700 4800 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 1700 4800 50  0001 L BNN "Field6"
+F 7 "Molex" H 1700 4800 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 1700 4800 50  0001 L BNN "Field8"
+	1    1700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P5
+U 1 1 5ABB45DD
+P 2600 4800
+F 0 "P5" H 2500 5121 50  0000 L BNN
+F 1 "0532610471" H 2500 4499 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 2600 4800 50  0001 L BNN
+F 3 "None" H 2600 4800 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 2600 4800 50  0001 L BNN "Field4"
+F 5 "0532610471" H 2600 4800 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 2600 4800 50  0001 L BNN "Field6"
+F 7 "Molex" H 2600 4800 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 2600 4800 50  0001 L BNN "Field8"
+	1    2600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P4
+U 1 1 5ABB46FC
+P 1750 5650
+F 0 "P4" H 1650 5971 50  0000 L BNN
+F 1 "0532610471" H 1650 5349 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 1750 5650 50  0001 L BNN
+F 3 "None" H 1750 5650 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 1750 5650 50  0001 L BNN "Field4"
+F 5 "0532610471" H 1750 5650 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 1750 5650 50  0001 L BNN "Field6"
+F 7 "Molex" H 1750 5650 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 1750 5650 50  0001 L BNN "Field8"
+	1    1750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P6
+U 1 1 5ABB4707
+P 2650 5650
+F 0 "P6" H 2550 5971 50  0000 L BNN
+F 1 "0532610471" H 2550 5349 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 2650 5650 50  0001 L BNN
+F 3 "None" H 2650 5650 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 2650 5650 50  0001 L BNN "Field4"
+F 5 "0532610471" H 2650 5650 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 2650 5650 50  0001 L BNN "Field6"
+F 7 "Molex" H 2650 5650 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 2650 5650 50  0001 L BNN "Field8"
+	1    2650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P7
+U 1 1 5ABB4810
+P 3500 4700
+F 0 "P7" H 3400 5021 50  0000 L BNN
+F 1 "0532610471" H 3400 4399 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 3500 4700 50  0001 L BNN
+F 3 "None" H 3500 4700 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 3500 4700 50  0001 L BNN "Field4"
+F 5 "0532610471" H 3500 4700 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 3500 4700 50  0001 L BNN "Field6"
+F 7 "Molex" H 3500 4700 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 3500 4700 50  0001 L BNN "Field8"
+	1    3500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P9
+U 1 1 5ABB481B
+P 4400 4700
+F 0 "P9" H 4300 5021 50  0000 L BNN
+F 1 "0532610471" H 4300 4399 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 4400 4700 50  0001 L BNN
+F 3 "None" H 4400 4700 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 4400 4700 50  0001 L BNN "Field4"
+F 5 "0532610471" H 4400 4700 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 4400 4700 50  0001 L BNN "Field6"
+F 7 "Molex" H 4400 4700 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 4400 4700 50  0001 L BNN "Field8"
+	1    4400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P8
+U 1 1 5ABB4826
+P 3550 5550
+F 0 "P8" H 3450 5871 50  0000 L BNN
+F 1 "0532610471" H 3450 5249 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 3550 5550 50  0001 L BNN
+F 3 "None" H 3550 5550 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 3550 5550 50  0001 L BNN "Field4"
+F 5 "0532610471" H 3550 5550 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 3550 5550 50  0001 L BNN "Field6"
+F 7 "Molex" H 3550 5550 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 3550 5550 50  0001 L BNN "Field8"
+	1    3550 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P10
+U 1 1 5ABB4831
+P 4450 5550
+F 0 "P10" H 4350 5871 50  0000 L BNN
+F 1 "0532610471" H 4350 5249 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 4450 5550 50  0001 L BNN
+F 3 "None" H 4450 5550 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 4450 5550 50  0001 L BNN "Field4"
+F 5 "0532610471" H 4450 5550 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 4450 5550 50  0001 L BNN "Field6"
+F 7 "Molex" H 4450 5550 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 4450 5550 50  0001 L BNN "Field8"
+	1    4450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P11
+U 1 1 5ABB4AB0
+P 5400 4800
+F 0 "P11" H 5300 5121 50  0000 L BNN
+F 1 "0532610471" H 5300 4499 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 5400 4800 50  0001 L BNN
+F 3 "None" H 5400 4800 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 5400 4800 50  0001 L BNN "Field4"
+F 5 "0532610471" H 5400 4800 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 5400 4800 50  0001 L BNN "Field6"
+F 7 "Molex" H 5400 4800 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 5400 4800 50  0001 L BNN "Field8"
+	1    5400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P13
+U 1 1 5ABB4ABB
+P 6300 4800
+F 0 "P13" H 6200 5121 50  0000 L BNN
+F 1 "0532610471" H 6200 4499 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 6300 4800 50  0001 L BNN
+F 3 "None" H 6300 4800 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 6300 4800 50  0001 L BNN "Field4"
+F 5 "0532610471" H 6300 4800 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 6300 4800 50  0001 L BNN "Field6"
+F 7 "Molex" H 6300 4800 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 6300 4800 50  0001 L BNN "Field8"
+	1    6300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P12
+U 1 1 5ABB4AC6
+P 5450 5650
+F 0 "P12" H 5350 5971 50  0000 L BNN
+F 1 "0532610471" H 5350 5349 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 5450 5650 50  0001 L BNN
+F 3 "None" H 5450 5650 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 5450 5650 50  0001 L BNN "Field4"
+F 5 "0532610471" H 5450 5650 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 5450 5650 50  0001 L BNN "Field6"
+F 7 "Molex" H 5450 5650 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 5450 5650 50  0001 L BNN "Field8"
+	1    5450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P14
+U 1 1 5ABB4AD1
+P 6350 5650
+F 0 "P14" H 6250 5971 50  0000 L BNN
+F 1 "0532610471" H 6250 5349 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 6350 5650 50  0001 L BNN
+F 3 "None" H 6350 5650 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 6350 5650 50  0001 L BNN "Field4"
+F 5 "0532610471" H 6350 5650 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 6350 5650 50  0001 L BNN "Field6"
+F 7 "Molex" H 6350 5650 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 6350 5650 50  0001 L BNN "Field8"
+	1    6350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P2
+U 1 1 5ABB4D5B
+P 1000 5650
+F 0 "P2" H 900 5971 50  0000 L BNN
+F 1 "0532610471" H 900 5349 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 1000 5650 50  0001 L BNN
+F 3 "None" H 1000 5650 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 1000 5650 50  0001 L BNN "Field4"
+F 5 "0532610471" H 1000 5650 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 1000 5650 50  0001 L BNN "Field6"
+F 7 "Molex" H 1000 5650 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 1000 5650 50  0001 L BNN "Field8"
+	1    1000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 53261-1071 J4
+U 1 1 5ABB5063
+P 2250 1900
+F 0 "J4" H 3000 2200 50  0000 L CNN
+F 1 "53261-1071" H 3000 2100 50  0000 L CNN
+F 2 "532611071" H 3000 2000 50  0001 L CNN
+F 3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" H 3000 1900 50  0001 L CNN
+F 4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" H 3000 1800 50  0001 L CNN "Description"
+F 5 "3" H 3000 1700 50  0001 L CNN "Height"
+F 6 "Molex" H 3000 1600 50  0001 L CNN "Manufacturer_Name"
+F 7 "53261-1071" H 3000 1500 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "5427179" H 3000 1400 50  0001 L CNN "RS Part Number"
+F 9 "http://uk.rs-online.com/web/p/products/5427179" H 3000 1300 50  0001 L CNN "RS Price/Stock"
+	1    2250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0532610471 P1
+U 1 1 5ABB51C4
+P 1000 4800
+F 0 "P1" H 900 5121 50  0000 L BNN
+F 1 "0532610471" H 900 4499 50  0000 L BNN
+F 2 "MOLEX_0532610471" H 1000 4800 50  0001 L BNN
+F 3 "None" H 1000 4800 50  0001 L BNN
+F 4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" H 1000 4800 50  0001 L BNN "Field4"
+F 5 "0532610471" H 1000 4800 50  0001 L BNN "Field5"
+F 6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" H 1000 4800 50  0001 L BNN "Field6"
+F 7 "Molex" H 1000 4800 50  0001 L BNN "Field7"
+F 8 "WM7622CT-ND" H 1000 4800 50  0001 L BNN "Field8"
+	1    1000 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

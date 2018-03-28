@@ -1,10 +1,11 @@
-(module MCOM10-K1 (layer F.Cu) (tedit 5AB323D3)
+(module MCOM10-K1 (layer F.Cu) (tedit 5ABB5453)
   (fp_text reference J1 (at 37.337998 85.906172) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (fp_text value CONN_3-6318491-6 (at 18.106 85.784) (layer B.SilkS) hide
+  (fp_text value CONN_3-6318491-6 (at 17.36382 -0.51028) (layer B.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (fp_circle (center 61.827889 3.42) (end 61.887889 3.46) (layer B.SilkS) (width 0.15))
   (fp_line (start 65.509098 3.042) (end 62.230837 3.042) (layer B.SilkS) (width 0.1524))
   (fp_line (start 3.456898 3.042) (end 3.456898 -3.4096) (layer B.SilkS) (width 0.1524))
   (fp_line (start 3.456898 -3.4096) (end 6.735826 -3.4096) (layer B.SilkS) (width 0.1524))
@@ -15,9 +16,6 @@
   (fp_line (start 65.382098 -3.2826) (end 65.382098 2.915) (layer Dwgs.User) (width 0.1524))
   (fp_line (start 6.735157 3.042) (end 3.456898 3.042) (layer B.SilkS) (width 0.1524))
   (fp_line (start 62.230837 -3.4096) (end 65.509098 -3.4096) (layer B.SilkS) (width 0.1524))
-  (fp_circle (center 7.23299 4.3712) (end 6.85199 4.3712) (layer B.SilkS) (width 0.1524))
-  (fp_circle (center 7.23299 4.3712) (end 6.85199 4.3712) (layer F.SilkS) (width 0.1524))
-  (fp_circle (center 7.23299 4.3712) (end 6.85199 4.3712) (layer Dwgs.User) (width 0.1524))
   (pad 110 smd rect (at 7.232997 2.4662) (size 0.3302 1.1938) (layers B.Cu B.Paste B.Mask))
   (pad 109 smd rect (at 7.732996 2.4662) (size 0.3302 1.1938) (layers B.Cu B.Paste B.Mask))
   (pad 108 smd rect (at 8.232997 2.4662) (size 0.3302 1.1938) (layers B.Cu B.Paste B.Mask))

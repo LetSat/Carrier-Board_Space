@@ -1,6 +1,30 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 0532610471
+#
+DEF 0532610471 P 0 40 Y Y 1 L N
+F0 "P" -100 321 50 H V L BNN
+F1 "0532610471" -100 -301 50 H V L BNN
+F2 "MOLEX_0532610471" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/0532610471/WM7622CT-ND/699109?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" 0 0 50 H I L BNN
+F5 "0532610471" 0 0 50 H I L BNN
+F6 "Conn Shrouded Header HDR 4 POS 1.25mm Solder RA SMD PicoBlade™ Embossed T/R" 0 0 50 H I L BNN
+F7 "Molex" 0 0 50 H I L BNN
+F8 "WM7622CT-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 -200 -100 300 N
+P 2 0 0 10 -100 300 100 300 N
+P 2 0 0 10 100 -200 -100 -200 N
+P 2 0 0 10 100 300 100 -200 N
+X 1 1 -300 200 200 R 40 40 0 0 P
+X 2 2 -300 100 200 R 40 40 0 0 P
+X 3 3 -300 0 200 R 40 40 0 0 P
+X 4 4 -300 -100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # 0532610671
 #
 DEF 0532610671 J 0 40 Y Y 1 L N
@@ -26,6 +50,60 @@ X 5 5 400 -100 200 L 40 40 0 0 P
 X 6 6 400 -200 200 L 40 40 0 0 P
 X SHIELD S1 400 -400 200 L 40 40 0 0 P
 X SHIELD S2 400 -400 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 53261-0771
+#
+DEF 53261-0771 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "53261-0771" 650 200 50 H V L CNN
+F2 "53261-0771" 650 100 50 H I L CNN
+F3 "http://www.mouser.com/ds/2/276/0532610771_PCB_HEADERS-170969.pdf" 650 0 50 H I L CNN
+F4 "7 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 7 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "53261-0771" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "5427141" 650 -500 50 H I L CNN "RS Part Number"
+F8 "http://uk.rs-online.com/web/p/products/5427141" 650 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 800 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 800 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 800 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+# 53261-1071
+#
+DEF 53261-1071 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "53261-1071" 750 200 50 H V L CNN
+F2 "532611071" 750 100 50 H I L CNN
+F3 "https://www.molex.com/webdocs/datasheets/pdf/en-us/0532611071_PCB_HEADERS.pdf" 750 0 50 H I L CNN
+F4 "10 way SMT r/a header Molex PICOBLADE Series, Series Number 53261, 1.25mm Pitch 10 Way 1 Row Shrouded Right Angle PCB Header, Surface Mount" 750 -100 50 H I L CNN "Description"
+F5 "3" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "53261-1071" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "5427179" 750 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/5427179" 750 -600 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 11 11 0 -500 200 R 50 50 0 0 B
+X 12 12 900 -500 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
 ENDDRAW
 ENDDEF
 #
