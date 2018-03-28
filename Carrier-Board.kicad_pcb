@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 173)
-    (no_connects 173)
-    (area 0 0 0 0)
+    (links 69)
+    (no_connects 69)
+    (area 41.349999 -42.371452 174.170001 124.545)
     (thickness 1.6)
     (drawings 2)
     (tracks 1)
@@ -2030,4 +2030,34 @@
 
   (segment (start 162.08 63.13) (end 162.08 63.71) (width 0.2) (layer F.Cu) (net 310))
 
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.8))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 110.395 55.25) (xy 116.175 55.26) (xy 116.185 61.03) (xy 110.395 61.04) (xy 110.415 55.25)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 116.048219 55.386781) (xy 116.05778 60.903219) (xy 110.52244 60.91278) (xy 110.541561 55.377254)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 5ABB24F9) (hatch edge 0.508)
+    (connect_pads (clearance 0.8))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 110.40343 79.472545) (xy 116.18343 79.482545) (xy 116.19343 85.252545) (xy 110.40343 85.262545) (xy 110.42343 79.472545)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 116.056649 79.609326) (xy 116.06621 85.125764) (xy 110.53087 85.135325) (xy 110.549991 79.599799)
+      )
+    )
+  )
 )

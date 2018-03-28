@@ -487,12 +487,12 @@ $EndComp
 $Comp
 L Conn_02x26_Odd_Even H2
 U 1 1 5A6C2591
-P 10200 1850
-F 0 "H2" H 10250 3150 50  0000 C CNN
-F 1 "H2" H 10250 450 50  0000 C CNN
-F 2 "Carrier-Board:ESQ-126-XX-X-D" H 10200 1850 50  0001 C CNN
-F 3 "" H 10200 1850 50  0001 C CNN
-	1    10200 1850
+P 8700 1850
+F 0 "H2" H 8750 3150 50  0000 C CNN
+F 1 "H2" H 8750 450 50  0000 C CNN
+F 2 "Carrier-Board:ESQ-126-XX-X-D" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -656,6 +656,100 @@ Text GLabel 13200 3100 0    60   Input ~ 0
 5 V Reaction wheels power supply (default option)
 Text GLabel 13700 3100 2    60   Input ~ 0
 3.3 V 3C2 board power supply (default option)
-Text GLabel 13700 3200 2    60   Input ~ 0
-3.3V UHF radio power supply (** option 2)
+Text Notes 16650 3450 0    60   ~ 0
+NC
+Text Notes 16700 3700 0    60   ~ 0
+NC
+Text GLabel 8500 1950 0    60   Input ~ 0
+3V3
+Text GLabel 9000 1950 2    60   Input ~ 0
+3V3
+Text GLabel 8500 2050 0    60   Input ~ 0
+GND
+Text GLabel 9000 2050 2    60   Input ~ 0
+GND
+Text GLabel 8500 2150 0    60   Input ~ 0
+AGND
+Text GLabel 9000 2150 2    60   Input ~ 0
+GND
+Text GLabel 13700 2300 2    60   Input ~ 0
+5VUSB_CHG
+Text Notes 11950 2850 0    60   ~ 0
+PSU_I2C_DATA\n
+Text Notes 11950 2950 0    60   ~ 0
+PSU_I2C_CLK
+Text GLabel 8500 2950 0    60   Input ~ 0
+GND
+Text GLabel 9000 2950 2    60   Input ~ 0
+GND
+Text GLabel 9000 1650 2    60   Input ~ 0
+GND
+Text GLabel 8500 1650 0    60   Input ~ 0
+GND
+Text GLabel 8500 1450 0    60   Input ~ 0
+GND
+Text GLabel 8500 1050 0    60   Input ~ 0
+GND
+Text GLabel 9000 1250 2    60   Input ~ 0
+GND
+Text GLabel 8500 2250 0    60   Input ~ 0
+DNU
+Text GLabel 9000 2250 2    60   Input ~ 0
+DNU
+Text GLabel 8500 2450 0    60   Input ~ 0
+DNU
+Text GLabel 9000 2450 2    60   Input ~ 0
+DNU
+Text GLabel 8500 2550 0    60   Input ~ 0
+DNU
+Text GLabel 9000 2550 2    60   Input ~ 0
+DNU
+Text GLabel 9000 950  2    60   Input ~ 0
+SW1_12v
+Text GLabel 9000 1050 2    60   Input ~ 0
+SW2_12v
+Text GLabel 9000 1150 2    60   Input ~ 0
+SW4_BatV
+Text GLabel 8500 1150 0    60   Input ~ 0
+SW3_BatV
+Text GLabel 8500 1250 0    60   Input ~ 0
+SW5_5v
+Text GLabel 8500 1350 0    60   Input ~ 0
+SW6_5v
+Text GLabel 9000 1350 2    60   Input ~ 0
+SW7_5v
+Text GLabel 9000 1450 2    60   Input ~ 0
+SW8_3V3
+Text GLabel 8500 1550 0    60   Input ~ 0
+SW9_3V3
+Text GLabel 9000 1550 2    60   Input ~ 0
+SW10_3V3
+Text GLabel 8500 1750 0    60   Input ~ 0
+12V
+Text GLabel 9000 1750 2    60   Input ~ 0
+12V
+Text GLabel 8500 1850 0    60   Input ~ 0
+5V
+Text GLabel 9000 1850 2    60   Input ~ 0
+5V
+Text Notes 6100 2000 0    60   ~ 0
+3.3 V UHF radio power supply (default option)
+Text GLabel 8500 2350 0    60   Input ~ 0
+PCM_IN
+Text GLabel 9000 2350 2    60   Input ~ 0
+PCM_IN
+Text GLabel 8500 2650 0    60   Input ~ 0
+BCR_OUT
+Text GLabel 8500 2750 0    60   Input ~ 0
+BCR_OUT
+Text GLabel 9000 2650 2    60   Input ~ 0
+BCR_OUT
+Text GLabel 9000 2750 2    60   Input ~ 0
+BCR_OUT
+Text GLabel 8500 2850 0    60   Input ~ 0
+BatV
+Text GLabel 9000 2850 2    60   Input ~ 0
+BatV
+Text Notes 8300 250  0    60   ~ 0
+Notes:\n\nSW1>PDM1\nSW2>PDM2...\n\nPDM1,PDM2 12V\nPDM3,PDM4 BatV\nPDM5,PDM6,PDM7 5V\nPDM8,PDM9,PDM10 3V3\n
 $EndSCHEMATC

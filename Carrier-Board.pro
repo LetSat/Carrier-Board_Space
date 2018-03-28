@@ -1,4 +1,4 @@
-update=3/27/2018 12:52:37 AM
+update=3/28/2018 1:49:29 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,5 @@ LibName38=0532610271
 LibName39=0532610371
 LibName40=0532610471
 LibName41=0532610671
+LibName42=53261-0771
+LibName43=53261-1071

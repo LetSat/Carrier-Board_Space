@@ -34,8 +34,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Carrier-Board
 LIBS:SI-51009-F
-LIBS:MCP6H04-E
-LIBS:BusSimulator
 LIBS:0532610271
 LIBS:0532610371
 LIBS:0532610471
@@ -60,7 +58,7 @@ L CONN_3-6318491-6 J1
 U 1 1 5A03F4E1
 P 9450 4850
 F 0 "J1" H 9800 5100 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 9800 5450 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 9800 5450 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 9850 2590 60  0001 C CNN
 F 3 "" H 9450 4850 60  0000 C CNN
 	1    9450 4850
@@ -71,7 +69,7 @@ L CONN_3-6318491-6 J1
 U 2 1 5A03F592
 P 10950 4850
 F 0 "J1" H 11300 5100 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 11050 6150 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 11050 6150 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 11350 2590 60  0001 C CNN
 F 3 "" H 10950 4850 60  0000 C CNN
 	2    10950 4850
@@ -82,7 +80,7 @@ L CONN_3-6318491-6 J1
 U 3 1 5A03F60D
 P 12450 4850
 F 0 "J1" H 12800 5100 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 13050 6300 60  0000 C CNN
+F 1 "s" H 13050 6300 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 12850 2590 60  0001 C CNN
 F 3 "" H 12450 4850 60  0000 C CNN
 	3    12450 4850
@@ -93,7 +91,7 @@ L CONN_3-6318491-6 J1
 U 4 1 5A03F69E
 P 13950 4850
 F 0 "J1" H 14300 5100 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 14250 5850 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 14250 5850 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 14350 2590 60  0001 C CNN
 F 3 "" H 13950 4850 60  0000 C CNN
 	4    13950 4850
@@ -104,7 +102,7 @@ L CONN_3-6318491-6 J1
 U 5 1 5A03F72F
 P 15450 4850
 F 0 "J1" H 15800 5100 60  0000 C CNN
-F 1 "CONN_3-6318491-6" H 15750 5300 60  0000 C CNN
+F 1 "CONN_3-6318491-6" H 15750 5300 60  0001 C CNN
 F 2 "BusSimulator:ComExpressMini10" H 15850 2590 60  0001 C CNN
 F 3 "" H 15450 4850 60  0000 C CNN
 	5    15450 4850
@@ -489,23 +487,23 @@ $EndComp
 $Comp
 L Conn_02x26_Odd_Even H2
 U 1 1 5A6C2591
-P 11900 2050
-F 0 "H2" H 11950 3350 50  0000 C CNN
-F 1 "Conn_02x26_Odd_Even" H 11950 650 50  0000 C CNN
-F 2 "Carrier-Board:ESQ-126-XX-X-D" H 11900 2050 50  0001 C CNN
-F 3 "" H 11900 2050 50  0001 C CNN
-	1    11900 2050
+P 8700 1850
+F 0 "H2" H 8750 3150 50  0000 C CNN
+F 1 "H2" H 8750 450 50  0000 C CNN
+F 2 "Carrier-Board:ESQ-126-XX-X-D" H 8700 1850 50  0001 C CNN
+F 3 "" H 8700 1850 50  0001 C CNN
+	1    8700 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_02x26_Odd_Even H1
 U 1 1 5A6C25B0
-P 12700 2050
-F 0 "H1" H 12750 3350 50  0000 C CNN
-F 1 "Conn_02x26_Odd_Even" H 12750 650 50  0000 C CNN
-F 2 "Carrier-Board:ESQ-126-XX-X-D" H 12700 2050 50  0001 C CNN
-F 3 "" H 12700 2050 50  0001 C CNN
-	1    12700 2050
+P 13400 2000
+F 0 "H1" H 13450 3300 50  0000 C CNN
+F 1 "H1" H 13450 600 50  0000 C CNN
+F 2 "Carrier-Board:ESQ-126-XX-X-D" H 13400 2000 50  0001 C CNN
+F 3 "" H 13400 2000 50  0001 C CNN
+	1    13400 2000
 	1    0    0    -1  
 $EndComp
 Text GLabel 9450 4950 0    51   Input ~ 0
@@ -620,4 +618,64 @@ F 8 "Molex" H 2450 1900 50  0001 L BNN "Field8"
 	1    2450 1900
 	1    0    0    -1  
 $EndComp
+Text GLabel 13200 800  0    60   Input ~ 0
+CAN_L
+Text GLabel 13700 800  2    60   Input ~ 0
+GPS_PPS signal output
+Text GLabel 13200 900  0    60   Input ~ 0
+CAN_H
+Text GLabel 13200 1000 0    60   Input ~ 0
+*GPIO_PA10
+Text GLabel 13200 1100 0    60   Input ~ 0
+* GPIO_PH6
+Text GLabel 13700 1100 2    60   Input ~ 0
+* GPIO_PH9
+Text GLabel 13200 1200 0    60   Input ~ 0
+* GPIO PH10
+Text GLabel 13700 1200 2    60   Input ~ 0
+* GPIO PH11
+Text Notes 14350 1250 0    60   ~ 0
+Verify_P10\n
+Text GLabel 13200 1400 0    60   Input ~ 0
+* ADC1_IN4 (PC4)
+Text GLabel 13700 1400 2    60   Input ~ 0
+* ADC1_IN8 (PC5)
+Text GLabel 13200 1500 0    60   Input ~ 0
+* ADC1_IN5 (PB1)
+Text GLabel 13700 1500 2    60   Input ~ 0
+* ADC1_IN9 (PB0)
+Text GLabel 13200 1600 0    60   Input ~ 0
+* UHF radio UART2_RX / ** UART2_TX
+Text GLabel 13700 1600 2    60   Input ~ 0
+* UHF radio UART2_TX / ** UART2_RX
+Text GLabel 13200 2800 0    60   Input ~ 0
+* I2C3_SDA
+Text GLabel 13200 2900 0    60   Input ~ 0
+* I2C3_SCL
+Text GLabel 13200 3100 0    60   Input ~ 0
+5 V Reaction wheels power supply (default option)
+Text GLabel 13700 3100 2    60   Input ~ 0
+3.3 V 3C2 board power supply (default option)
+Text GLabel 13700 3200 2    60   Input ~ 0
+3.3V UHF radio power supply (** option 2)
+Text Notes 15750 3250 0    60   ~ 0
+NC
+Text Notes 10650 3150 0    60   ~ 0
+NC
+Text GLabel 8500 1250 0    60   Input ~ 0
+5 V Reaction wheels power supply (** option2)
+Text GLabel 9000 1450 2    60   Input ~ 0
+3.3V 3C2 board power supply (**option 2)
+Text GLabel 8500 1950 0    60   Input ~ 0
+3.3 V UHF radio power supply (default option)
+Text GLabel 9000 1950 2    60   Input ~ 0
+3.3 V UHF radio power supply (default option)
+Text GLabel 8500 2050 0    60   Input ~ 0
+GND
+Text GLabel 9000 2050 2    60   Input ~ 0
+GND
+Text GLabel 8500 2150 0    60   Input ~ 0
+AGND
+Text GLabel 9000 2150 2    60   Input ~ 0
+GND
 $EndSCHEMATC
