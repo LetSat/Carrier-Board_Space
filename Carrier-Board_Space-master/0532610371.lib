@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 0532610371
+#
+DEF 0532610371 P 0 40 Y Y 1 L N
+F0 "P" -100 226 50 H V L BNN
+F1 "0532610371" -100 -301 50 H V L BNN
+F2 "MOLEX_0532610371" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "https://www.digikey.com/product-detail/en/molex-llc/0532610371/WM7621CT-ND/699108?WT.z_cid=ref_snapeda&utm_source=snapeda&utm_medium=aggregator&utm_campaign=buynow" 0 0 50 H I L BNN
+F5 "0532610371" 0 0 50 H I L BNN
+F6 "1.25mm (.049) Pitch PicoBlade Header, Surface Mount, Right Angle, Lead-free, 3 Circuits" 0 0 50 H I L BNN
+F7 "Molex" 0 0 50 H I L BNN
+F8 "WM7621CT-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 200 100 200 N
+P 2 0 0 10 100 200 100 -200 N
+P 2 0 0 10 100 -200 -100 -200 N
+P 2 0 0 10 -100 -200 -100 200 N
+X 1 1 -300 100 200 R 40 40 0 0 P 
+X 2 2 -300 0 200 R 40 40 0 0 P 
+X 3 3 -300 -100 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
